@@ -74,7 +74,7 @@ export const articles: Article[] = [
       <p>The key to success in this AI-driven landscape is continuous learning and adaptation, ensuring that developers can leverage these powerful tools while maintaining the human touch that makes great web experiences truly exceptional.</p>
     `,
     author: 'Sarah Johnson',
-    publishedAt: '2024-01-15',
+    publishedAt: '2025-08-15',
     readTime: 8,
     category: 'Technology',
     tags: ['AI', 'Web Development', 'Future Tech', 'Programming'],
@@ -194,7 +194,7 @@ export const articles: Article[] = [
       <p>The journey toward sustainability is ongoing, and perfection isn't the goal—progress is. By making conscious choices and inspiring others through our actions, we can collectively create a more sustainable and equitable world.</p>
     `,
     author: 'Michael Chen',
-    publishedAt: '2024-01-12',
+    publishedAt: '2025-06-12',
     readTime: 6,
     category: 'Lifestyle',
     tags: ['Sustainability', 'Environment', 'Green Living', 'Eco-friendly'],
@@ -373,7 +373,7 @@ export const articles: Article[] = [
       <p>Remember that digital marketing is a marathon, not a sprint. Focus on providing value to your customers, building authentic relationships, and measuring your results. With patience and persistence, your small business can achieve remarkable growth in the digital marketplace.</p>
     `,
     author: 'Emily Rodriguez',
-    publishedAt: '2024-01-10',
+    publishedAt: '2025-04-10',
     readTime: 10,
     category: 'Business',
     tags: ['Digital Marketing', 'Small Business', 'SEO', 'Social Media'],
