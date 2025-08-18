@@ -1,39 +1,9 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { articles } from '@/data/articles';
 
 export default function Home() {
-  const featuredArticles = [
-    {
-      id: '1',
-      title: 'The Future of Artificial Intelligence in Web Development',
-      excerpt: 'Explore how AI is transforming the way we build and design websites, from automated coding to intelligent user experiences.',
-      author: 'Sarah Johnson',
-      publishedAt: '2024-01-15',
-      category: 'Technology',
-      imageUrl: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop',
-      readTime: 8
-    },
-    {
-      id: '2',
-      title: 'Sustainable Living: Simple Changes for a Better Tomorrow',
-      excerpt: 'Discover practical ways to reduce your environmental impact and create a more sustainable lifestyle without breaking the bank.',
-      author: 'Michael Chen',
-      publishedAt: '2024-01-12',
-      category: 'Lifestyle',
-      imageUrl: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=800&h=400&fit=crop',
-      readTime: 6
-    },
-    {
-      id: '3',
-      title: 'Digital Marketing Strategies for Small Businesses',
-      excerpt: 'Learn effective digital marketing techniques that can help small businesses compete with larger companies in the online space.',
-      author: 'Emily Rodriguez',
-      publishedAt: '2024-01-10',
-      category: 'Business',
-      imageUrl: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=400&fit=crop',
-      readTime: 10
-    }
-  ];
+  const featuredArticles = articles.filter(article => article.featured);
 
   const featuredProducts = [
     {
